@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "某小説投稿サイトを縦書きにするやつ",
+    "version": "0.1",
+    "description": "某小説投稿サイトを縦書きにするやつ",
+    "content_scripts": [
+        {
+            "matches": ["https://ncode.syosetu.com/*/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
