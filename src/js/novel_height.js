@@ -9,7 +9,7 @@ export default () => {
     const b_height = body.clientHeight;
 
     // カラム数の計算が上手くいかないから仕方ないね
-    const columns = Math.ceil(b_width / w_width) + 1;
+    const columns = Math.ceil(b_width / w_width);
     const styles = window.getComputedStyle(wrapper);
     const gap = styles.columnGap ? parseInt(styles.columnGap) : 0;
 

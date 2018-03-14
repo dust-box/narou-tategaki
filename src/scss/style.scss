@@ -16,5 +16,9 @@
 
     &_body {
         max-height: 80vh;
+
+        .paragraph {
+            display: inline-block;
+        }
     }
 }
